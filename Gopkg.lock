@@ -56,6 +56,7 @@
     "service/ec2",
     "service/ec2/ec2iface",
     "service/s3",
+    "service/sns",
     "service/sts"
   ]
   revision = "decd990ddc5dcdf2f73309cbcab90d06b996ca28"
@@ -631,6 +632,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4de68f1342ba98a637ec8ca7496aeeae2021bf9e4c7c80db7924e14709151a62"
+  inputs-digest = "4ae2d1c4b2f4a718eb187dd1486f1c164cb23f76a2c134b4c72580752a64b286"
   solver-name = "gps-cdcl"
   solver-version = 1

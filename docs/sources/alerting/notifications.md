@@ -126,6 +126,11 @@ There are a couple of configuration options which need to be set up in Grafana U
 
 Once these two properties are set, you can send the alerts to Kafka for further processing or throttling.
 
+### Amazon SNS
+
+To set up SNS you need to configure EC2 IAM role for SNS.
+The format of sending message is based on Webhook (exclude imageUrl).
+
 ### All supported notifier
 
 Name | Type |Support images
@@ -144,6 +149,7 @@ Pushover | `pushover` | no
 Telegram | `telegram` | no
 Line | `line` | no
 Prometheus Alertmanager | `prometheus-alertmanager` | no
+Amazon SNS | `amazonsns` | no
 
 
 
